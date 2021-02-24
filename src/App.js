@@ -33,6 +33,7 @@ function App() {
     <>
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Home />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/menu" component={Menu} />
